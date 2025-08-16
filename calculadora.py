@@ -2,8 +2,7 @@ import os
 print("------------------")
 print("Calculadora")
 print("------------------")
-while True:
-	def calculadora (numero1, numero2):
+def calculadora (numero1, numero2):
 		if opcion == 1:
 			os.system("cls")
 			return  numero1 + numero2
@@ -18,7 +17,7 @@ while True:
 			return numero1 / numero2
 		else:
 			return "Opción no válida"
-
+while True:
 	print("Que operacion desea realizar?")
 	print("Opcion 1 - Suma")
 	print("Opcion 2 - Resta")
