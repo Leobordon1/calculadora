@@ -24,7 +24,6 @@ while True:
 	print("Opcion 3 - Multiplicaion")
 	print("Opcion 4 - Division")
 	print("Opcion 5 - Salir")
-
 	opcion =int(input("Ingrese una opción:"))
 	if opcion == 5:
 		os.system("cls")
@@ -32,5 +31,4 @@ while True:
 		break
 	numero1 = int(input("Ingrese un numero:"))
 	numero2 = int(input("Ingrese otro numero:"))
-
 	print(calculadora(numero1, numero2))
